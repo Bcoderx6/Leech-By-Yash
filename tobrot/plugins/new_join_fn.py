@@ -38,7 +38,7 @@ async def help_message_f(client, message):
     #message_id = 99
     # display the /help
     
-    await message.reply_text("""Thanks for joining... If you need some help tag me @Oreooo""", disable_web_page_preview=True)
+    await message.reply_text("""THIS IS AN ANYLINK TO DIRECT DOWNLOAD IF U HAVE ANY TROUBLE KINDLY CONTACT ME @YASHPUTHA""", disable_web_page_preview=True)
 
 
 # async def rename_message_f(client, message):
@@ -46,12 +46,12 @@ async def help_message_f(client, message):
 #     inline_keyboard.append([
 #         pyrogram.InlineKeyboardButton(
 #             text="read this?",
-#             url="https://t.me/keralagram/698909"
+#             url="https://t.me/YashPutha"
 #         )
 #     ])
 #     reply_markup = pyrogram.InlineKeyboardMarkup(inline_keyboard)
 #     await message.reply_text(
-#         "please use @OreoooRenamer_bot",
+#         "please use @YashPutha",
 #         quote=True,
 #         reply_markup=reply_markup
 #     )
