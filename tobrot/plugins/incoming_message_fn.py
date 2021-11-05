@@ -46,7 +46,7 @@ async def incoming_purge_message_f(client, message):
     await i_m_sefg2.delete()
 
 async def incoming_message_f(client, message):
-    """/leech command"""
+    """/yash command"""
     g_id = message.from_user.id
     credit = await message.reply_text(f"🧲 Leeching for you <a href='tg://user?id={g_id}'>🤕</a>", parse_mode="html")
     i_m_sefg = await message.reply_text("processing", quote=True)
@@ -101,7 +101,7 @@ async def incoming_message_f(client, message):
             await i_m_sefg.edit_text(err_message)
     else:
         await i_m_sefg.edit_text(
-            "**FCUK**! wat have you entered. \nPlease read /help \n"
+            "**FCUK**! what have you entered. \nPlease read /help \n"
             f"<b>API Error</b>: {cf_name}"
         )
 #
