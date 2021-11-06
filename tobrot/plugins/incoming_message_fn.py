@@ -37,7 +37,7 @@ from tobrot.helper_funcs.upload_to_tg import upload_to_tg
 async def incoming_message_f(client, message):
     """/start command"""
     g_id = message.from_user.id
-    credit = await message.reply_text(f"🧲 SEND UR LINK TO CONVERT DIRECT BOT BY@YASHPUTHA <a href='tg://user?id={g_id}'>🤕</a>", parse_mode="html")
+    credit = await message.reply_text(f"🧲 SEND UR LINK TO CONVERT DIRECT BOT BY@YASHPUTHA")
     
 async def incoming_purge_message_f(client, message):
     """/purge command"""
