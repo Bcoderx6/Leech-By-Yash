@@ -17,13 +17,7 @@ A Telegram Torrent (and youtube-dl) Leecher based on [Pyrogram](https://github.c
     ✓ Option to select either video will be uploaded as document or streamable
     ✓ Added /renewme command to clear the downloads which are not deleted automatically.
     ✓ Added support for youtube playlist 😐
-    ✓
     
-# TO-DO
--   ~Gdrive file clonning using Gclone~ `DONE ✓`
--   [ ] Adding mp3 files support while playlist downloading.
--   [ ] Password support while Unarchiving the files.
--   [ ] Selection of required files during leeching the big files using aria(/leech command)
 
 ## Process to run this BOT on VPS
 
