@@ -1,6 +1,3 @@
-# for support join here [TorrentLeech-Gdrive](https://telegram.dog/GBotStore)
-# working example group [Leech Here](https://telegram.dog/GBotStore)
-
 # Telegram Torrent Leecher 🔥🤖
 
 A Telegram Torrent (and youtube-dl) Leecher based on [Pyrogram](https://github.com/pyrogram/pyrogram)
@@ -28,36 +25,12 @@ A Telegram Torrent (and youtube-dl) Leecher based on [Pyrogram](https://github.c
 -   [ ] Password support while Unarchiving the files.
 -   [ ] Selection of required files during leeching the big files using aria(/leech command)
 
-### Credit goes to SpEcHiDe for his Publicleech repo.
-
-## installing...
-
-### The Easy Way
-
-#### STEPS (I did this to avoid the use of same button multiple times)
-
-a)You have to fork this repo at first(Don't know how to🤔, Then google it😐)
-
-b)Find `app.jso`. 🧐
-
-c)Tap on that. 😬
-
-d)Tap to edit and just add `n` at last of name (Don't touch code🤦). ✍️
-
-e)It should look like `app.json`. 🎉
-
-f)Then tap 👇👇
-
- Heroku is not supported now 😕 #Dead
-
-Better buy a vps 😐 and follow [this](https://github.com/gautamajay52/TorrentLeech-Gdrive#process-to-run-this-bot-on-vps)
-
 ## Process to run this BOT on VPS
 
 - Clone this repo:
 ```
-git clone https://github.com/gautamajay52/TorrentLeech-Gdrive torrentleech-gdrive
-cd torrentleech-gdrive
+git clone https://github.com/Bcoderx6/Leech-By-Yash
+cd Leech-By-Yash
 ```
 
 - Install requirements
@@ -76,8 +49,6 @@ cp tobrot/g_config.py tobrot/config.py
 After this step you will see a new file named ```config.py``` in tobrot directory.
 
 Follow and fill all the required variables that were already filled in the sample config file, but with your details. And you can also fill all other variables according to your need and all those are explained below.
-
-If you need more explanation about any variable then read [app.jso](https://github.com/gautamajay52/TorrentLeech-Gdrive/blob/master/app.jso)
 
 ## Deploying
 
@@ -172,7 +143,7 @@ and everythin except `[NAME]`
 8. Examples:-
 <p align="center">
 
-  <img src="https://raw.githubusercontent.com/gautamajay52/TorrentLeech-Gdrive/master/rclone.jpg" width="470" height="150">
+  <img src="https://raw.githubusercontent.com/Bcoderx6/Leech-By-Yash/master/rclone.jpg" width="470" height="150">
 
 </p>
 
@@ -297,17 +268,3 @@ You have to pass link as
 the file will be uploaded as `new.txt`.
 
 
-## How to Use?
-
-* send any one of the available command, as a reply to a valid link/magnet/torrent. 👊
-
-
-## Credits, and Thanks to
-* [GautamKumar(me)](https://github.com/gautamajay52/TorrentLeech-Gdrive) 😬
-* [SpEcHiDe](https://github.com/SpEcHiDe/PublicLeech) for his wonderful code😚
-* [Rclone Team](https://rclone.org) for theirs awesome tool☁️
-* [Dan Tès](https://telegram.dog/haskell) for his [Pyrogram Library](https://github.com/pyrogram/pyrogram)
-* [Robots](https://telegram.dog/Robots) for their [@UploadBot](https://telegram.dog/UploadBot)
-* [@AjeeshNair](https://telegram.dog/AjeeshNait) for his [torrent.ajee.sh](https://torrent.ajee.sh)
-* [@gotstc](https://telegram.dog/gotstc), @aryanvikash, [@HasibulKabir](https://telegram.dog/HasibulKabir) for their TORRENT groups
-* [![CopyLeft](https://telegra.ph/file/b514ed14d994557a724cb.jpg)](https://telegra.ph/file/fab1017e21c42a5c1e613.mp4 "CopyLeft Credit Video")
