@@ -51,7 +51,7 @@ async def help_message_f(client, message):
 #     ])
 #     reply_markup = pyrogram.InlineKeyboardMarkup(inline_keyboard)
 #     await message.reply_text(
-#         "please use @YashPutha",
+#         "ANY TROUBLE CONTACT@YASHPUTHA",
 #         quote=True,
 #         reply_markup=reply_markup
 #     )
