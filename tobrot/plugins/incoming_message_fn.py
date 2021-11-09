@@ -34,17 +34,7 @@ from tobrot.helper_funcs.cloneHelper import CloneHelper
 from tobrot.helper_funcs.download import download_tg
 from tobrot.helper_funcs.upload_to_tg import upload_to_tg
 
-async def start(update, context):
-    buttons = button_build.ButtonMaker()
-    buttons.buildbutton("REPO 🎯🧨", "https://github.com/Bcoderx6/yash-mirrorbot")
-    buttons.buildbutton("OWNER 🎯🧨", "https://t.me/YASHPUTHA")
-    buttons.buildbutton("GITHUB 🎯🧨", "https://github.com/Bcoderx6")
-    reply_markup = InlineKeyboardMarkup(buttons.build_menu(2))
-    if CustomFilters.authorized_user(update) or CustomFilters.authorized_chat(update):
-        start_string = f'''
-🔑THIS BOT CAN MIRROR ALL YOUR LINKS TO GOOGLE DRIVE && INDEX URL!😎
-🧨BOT AND REPO OWNER @YASHPUTHA�
-    
+
 async def incoming_purge_message_f(client, message):
     """/purge command"""
     i_m_sefg2 = await message.reply_text("Purging...", quote=True)
@@ -57,7 +47,7 @@ async def incoming_purge_message_f(client, message):
     await i_m_sefg2.delete()
 
 async def incoming_message_f(client, message):
-    """/yash command"""
+    """/leech command"""
     g_id = message.from_user.id
     credit = await message.reply_text(f"🧲 Leeching for you <a href='tg://user?id={g_id}'>🤕</a>", parse_mode="html")
     i_m_sefg = await message.reply_text("processing", quote=True)
